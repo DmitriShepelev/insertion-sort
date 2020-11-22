@@ -18,7 +18,6 @@ namespace InsertionSort
                 throw new ArgumentNullException(nameof(array));
             }
 
-
             for (int j = 1; j < array.Length; j++)
             {
                 var key = array[j];
